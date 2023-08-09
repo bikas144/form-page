@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Application Form </title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&family=Lobster&family=Ubuntu:wght@300&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="outer-box">
+        <div class="inner-box">
+            <h1>Job Application Form <span class="text-small">(web)</span></h1>
+            <form action="#">
+                <div class="form-container">
+                    <div class="form-control">
+                        <label for="First_name">First name</label>
+                        <input type="text" name="First_name" id="First_name" placeholder="Enter the first name...">
+                    </div>
+                    <div class="form-control">
+                        <label for="Last_name">Last name</label>
+                        <input type="text" name="Last_name" id="Last_name" placeholder="Enter the Lastname...">
+                    </div>
+                    <div class="form-control">
+                        <label for="email">Email</label>
+                        <input type="email" name="email" id="email" placeholder="Enter the email...">
+                    </div>
+                    <div class="form-control">
+                        <label for="job_role">Job Role</label>
+                        <select name="job_role" id="job_role">
+                            <option value="">--Select job role--</option>
+                            <option value="job_role">Frontend Devloper</option>
+                            <option value="job_role">Backend Devloper</option>
+                            <option value="job_role">Fullstack Devloper</option>
+                            <option value="job_role">UI/Ux Designer</option>
+
+                        </select>
+                    </div>
+                    <div class="form-control aaa">
+                        <label for="addresss">Address</label>
+                        <textarea name="addresss" id="addresss" cols="50" rows="4"></textarea>
+
+                    </div>
+                    <div class="form-control">
+                        <label for="city_name">City</label>
+                        <input type="text" name="email" id="city_name" placeholder="Enter the City...">
+                    </div>
+                    <div class="form-control">
+                        <label for="pin_code">Pin Code</label>
+                        <input type="number" name="pin_code" id="pin_code" placeholder="Enter the Pincode...">
+                    </div>
+                    <div class="form-control">
+                        <label for="date">Date</label>
+                        <input type="date" name="date" id="date">
+                    </div>
+                    <div class="form-control">
+                        <label for="upload">Upload Your CV</label>
+                        <input type="file" name="upload" id="upload">
+
+                    </div>
+                </div>
+                <div class="botton-container">
+                    <button type="submit">Apply Now</button>
+                </div>
+
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
